@@ -1,11 +1,11 @@
 
 public class Paciente  {
     private String nombre;
-    private String sintoma;
+    private String afliccion;
     
-    public Paciente(String nombre, String sintoma) {
+    public Paciente(String nombre, String afliccion) {
         this.nombre = nombre;
-        this.sintoma = sintoma;
+        this.afliccion = afliccion;
         
     }
 
@@ -14,8 +14,8 @@ public class Paciente  {
     }
 
     
-    public String getSintoma() {
-        return sintoma;
+    public String getAfliccion() {
+        return afliccion;
     }
 
 }
